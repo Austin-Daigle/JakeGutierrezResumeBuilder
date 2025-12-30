@@ -4,4 +4,4 @@ This is a Python script that makes building professional resumes in the Jake Gut
 Here is the link to the original page and formatting: [https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs)
 
 # Download Link (.exe):
-[Resume Template Maker.exe (Windows Only)](https://drive.google.com/file/d/1Pszd1hHd9FCgmDxGWiUMH7VKsl0R4Wm9/view?usp=sharing)
+[Resume Template Maker.exe (Windows Only)](https://drive.google.com/file/d/1tvza5xIbJ_dcYEn6eF16h2ZAI7yxP-6T/view?usp=sharing)
