@@ -1,0 +1,270 @@
+{
+  "header": {
+    "name": "Jake Ryan",
+    "phone": "123-456-7890",
+    "email": "jake@su.edu",
+    "linkedin": "https://linkedin.com/in/...",
+    "linkedin_display": "linkedin.com/in/jake",
+    "github": "https://github.com/...",
+    "github_display": "github.com/jake"
+  },
+  "sections": [
+    {
+      "id": "education",
+      "title": "Education",
+      "kind": "education",
+      "entries": [
+        {
+          "school": "Southwestern University",
+          "location": "Georgetown, TX",
+          "degree": "Bachelor of Arts in Computer Science, Minor in Business",
+          "dates": "Aug. 2018 -- May 2021"
+        },
+        {
+          "school": "Blinn College",
+          "location": "Bryan, TX",
+          "degree": "Associate's in Liberal Arts",
+          "dates": "Aug. 2014 -- May 2018"
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "title": "Experience",
+      "kind": "experience",
+      "entries": [
+        {
+          "role": "Undergraduate Research Assistant",
+          "dates": "June 2020 -- Present",
+          "org": "Texas A&M University",
+          "location": "College Station, TX",
+          "bullets": [
+            [
+              {
+                "text": "Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems"
+              }
+            ],
+            [
+              {
+                "text": "Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data"
+              }
+            ],
+            [
+              {
+                "text": "Explored ways to visualize GitHub collaboration in a classroom setting"
+              }
+            ]
+          ]
+        },
+        {
+          "role": "Information Technology Support Specialist",
+          "dates": "Sep. 2018 -- Present",
+          "org": "Southwestern University",
+          "location": "Georgetown, TX",
+          "bullets": [
+            [
+              {
+                "text": "Communicate with managers to set up campus computers used on campus"
+              }
+            ],
+            [
+              {
+                "text": "Assess and troubleshoot computer problems brought by students, faculty and staff"
+              }
+            ],
+            [
+              {
+                "text": "Maintain upkeep of computers, classroom equipment, and 200 printers across campus"
+              }
+            ]
+          ]
+        },
+        {
+          "role": "Artificial Intelligence Research Assistant",
+          "dates": "May 2019 -- July 2019",
+          "org": "Southwestern University",
+          "location": "Georgetown, TX",
+          "bullets": [
+            [
+              {
+                "text": "Explored methods to generate video game dungeons based off of "
+              },
+              {
+                "text": "The Legend of Zelda",
+                "i": true
+              }
+            ],
+            [
+              {
+                "text": "Developed a game in Java to test the generated dungeons"
+              }
+            ],
+            [
+              {
+                "text": "Contributed 50K+ lines of code to an established codebase via Git"
+              }
+            ],
+            [
+              {
+                "text": "Conducted a human subject study to determine which video game dungeon generation technique is enjoyable"
+              }
+            ],
+            [
+              {
+                "text": "Wrote an 8-page paper and gave multiple presentations on-campus"
+              }
+            ],
+            [
+              {
+                "text": "Presented virtually to the World Conference on Computational Intelligence"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Projects",
+      "kind": "projects",
+      "entries": [
+        {
+          "title": "Gitlytics",
+          "stack": "Python, Flask, React, PostgreSQL, Docker",
+          "dates": "June 2020 -- Present",
+          "bullets": [
+            [
+              {
+                "text": "Developed a full-stack web application using with Flask serving a REST API with React as the frontend"
+              }
+            ],
+            [
+              {
+                "text": "Implemented GitHub OAuth to get data from user's repositories"
+              }
+            ],
+            [
+              {
+                "text": "Visualized GitHub data to show collaboration"
+              }
+            ],
+            [
+              {
+                "text": "Used Celery and Redis for asynchronous tasks"
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Simple Paintball",
+          "stack": "Spigot API, Java, Maven, TravisCI, Git",
+          "dates": "May 2018 -- May 2020",
+          "bullets": [
+            [
+              {
+                "text": "Developed a Minecraft server plugin to entertain kids during free time for a previous job"
+              }
+            ],
+            [
+              {
+                "text": "Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review"
+              }
+            ],
+            [
+              {
+                "text": "Implemented continuous delivery using TravisCI to build the plugin upon new a release"
+              }
+            ],
+            [
+              {
+                "text": "Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "technical_skills",
+      "title": "Technical Skills",
+      "kind": "skills",
+      "entries": [
+        {
+          "label": "Languages",
+          "value": [
+            {
+              "text": "Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R",
+              "font": "Helvetica",
+              "size": 13
+            }
+          ]
+        },
+        {
+          "label": "Frameworks",
+          "value": [
+            {
+              "text": "React, ",
+              "font": "Segoe UI",
+              "size": 14,
+              "fg": "#ff0000"
+            },
+            {
+              "text": "Node.js, ",
+              "font": "Segoe UI",
+              "size": 14,
+              "fg": "#ffff00"
+            },
+            {
+              "text": "Flask, JUnit, ",
+              "font": "Segoe UI",
+              "size": 14,
+              "fg": "#80ff00"
+            },
+            {
+              "text": "WordPress, ",
+              "font": "Segoe UI",
+              "size": 14,
+              "fg": "#00ffff"
+            },
+            {
+              "text": "Material-UI,",
+              "font": "Segoe UI",
+              "size": 14,
+              "fg": "#0000ff"
+            },
+            {
+              "text": " FastAPI",
+              "font": "Segoe UI",
+              "size": 14,
+              "fg": "#ff00ff"
+            }
+          ]
+        },
+        {
+          "label": "Developer Tools",
+          "value": [
+            {
+              "text": "Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse",
+              "font": "Segoe UI",
+              "size": 9,
+              "bg": "#ffff80"
+            }
+          ]
+        },
+        {
+          "label": "Libraries",
+          "value": [
+            {
+              "text": "pandas, NumPy, Matplotlib",
+              "font": "Segoe UI",
+              "size": 9,
+              "b": true,
+              "i": true,
+              "u": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
