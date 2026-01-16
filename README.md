@@ -9,15 +9,20 @@ Here is the link to the original page and formatting: [https://www.overleaf.com/
 # Resume Template Maker (Tkinter)
 A lightweight desktop application for building a resume from structured data (Header + Sections + Entries + Bullets), previewing it, and exporting it to multiple formats. The UI is optimized for fast editing, reordering content via drag-and-drop, and maintaining consistent formatting across entries.
 
-<img width="2360" height="1881" alt="image" src="https://github.com/user-attachments/assets/fcabd604-c84d-4750-95e5-62d36be7a35c" />
+<img width="750" height="550" alt="image" src="https://github.com/user-attachments/assets/fcabd604-c84d-4750-95e5-62d36be7a35c" />
 
 This project is designed to feel like a “resume content IDE”:
 - You edit structured fields instead of fighting layout/editing in Word.
-- Resume structure follows a standard formating, however, customization is
- also enabled in a drag-and-drop manner for sections and lists.
 - You reorder content instantly (sections, entries, bullets).
+ <img width="750" height="550" alt="image" src="https://github.com/user-attachments/assets/b518965b-dcb5-4fb2-baef-6392eedec6e2" />
+
 - You can preview and export when ready.
 - Edit Spellcheck status and word filtering rules
+<img width="750" height="550" alt="image" src="https://github.com/user-attachments/assets/ea551907-2d5d-4d27-8302-83291fd699b0" />
+
+- Live Previews show progress while editing.
+- <img width="750" height="550" alt="image" src="https://github.com/user-attachments/assets/bb821f19-15be-4ebc-9f57-f1a21899bb3c" />
+
 
 
 
