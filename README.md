@@ -21,7 +21,7 @@ This project is designed to feel like a “resume content IDE”:
 <img width="750" height="550" alt="image" src="https://github.com/user-attachments/assets/ea551907-2d5d-4d27-8302-83291fd699b0" />
 
 - Live Previews show progress while editing.
-- <img width="750" height="550" alt="image" src="https://github.com/user-attachments/assets/bb821f19-15be-4ebc-9f57-f1a21899bb3c" />
+<img width="750" height="550" alt="image" src="https://github.com/user-attachments/assets/bb821f19-15be-4ebc-9f57-f1a21899bb3c" />
 
 
 
