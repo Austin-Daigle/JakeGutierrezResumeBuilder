@@ -1,7 +1,7 @@
 # JakeGutierrezResumeBuilder
 This is a Python script that makes building professional resumes in the Jake Gutierrez format easy with a simple GUI.
 
-<img width="255" height="150" alt="image" src="https://github.com/user-attachments/assets/fcabd604-c84d-4750-95e5-62d36be7a35c" />
+<img width="550" height="350" alt="image" src="https://github.com/user-attachments/assets/fcabd604-c84d-4750-95e5-62d36be7a35c" />
 
 Here is the link to the original page and formatting: [https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs)
 
@@ -15,7 +15,7 @@ A lightweight desktop application for building a resume from structured data (He
 
 This project is designed to feel like a “resume content IDE”:
 - You edit structured fields instead of fighting layout/editing in Word.
-<img width="1000" height="750" alt="image" src="https://github.com/user-attachments/assets/dc52e248-ab63-4d68-bbe2-7165fde5b6e1" />
+<img width="550" height="350" alt="image" src="https://github.com/user-attachments/assets/dc52e248-ab63-4d68-bbe2-7165fde5b6e1" />
 
 - You reorder content instantly (sections, entries, bullets).
  <img width="550" height="350" alt="image" src="https://github.com/user-attachments/assets/b518965b-dcb5-4fb2-baef-6392eedec6e2" />
