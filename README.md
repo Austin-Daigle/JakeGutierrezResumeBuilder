@@ -1,6 +1,8 @@
 # JakeGutierrezResumeBuilder
 This is a Python script that makes building professional resumes in the Jake Gutierrez format easy with a simple GUI.
 
+<img width="255" height="150" alt="image" src="https://github.com/user-attachments/assets/fcabd604-c84d-4750-95e5-62d36be7a35c" />
+
 Here is the link to the original page and formatting: [https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs)
 
 # Download Link (.exe):
@@ -9,21 +11,21 @@ Here is the link to the original page and formatting: [https://www.overleaf.com/
 # Resume Template Maker (Tkinter)
 A lightweight desktop application for building a resume from structured data (Header + Sections + Entries + Bullets), previewing it, and exporting it to multiple formats. The UI is optimized for fast editing, reordering content via drag-and-drop, and maintaining consistent formatting across entries.
 
-<img width="750" height="550" alt="image" src="https://github.com/user-attachments/assets/fcabd604-c84d-4750-95e5-62d36be7a35c" />
+
 
 This project is designed to feel like a “resume content IDE”:
 - You edit structured fields instead of fighting layout/editing in Word.
-<img width="2475" height="1525" alt="image" src="https://github.com/user-attachments/assets/dc52e248-ab63-4d68-bbe2-7165fde5b6e1" />
+<img width="1000" height="750" alt="image" src="https://github.com/user-attachments/assets/dc52e248-ab63-4d68-bbe2-7165fde5b6e1" />
 
 - You reorder content instantly (sections, entries, bullets).
- <img width="750" height="550" alt="image" src="https://github.com/user-attachments/assets/b518965b-dcb5-4fb2-baef-6392eedec6e2" />
+ <img width="550" height="350" alt="image" src="https://github.com/user-attachments/assets/b518965b-dcb5-4fb2-baef-6392eedec6e2" />
 
 - You can preview and export when ready.
 - Edit Spellcheck status and word filtering rules
-<img width="750" height="550" alt="image" src="https://github.com/user-attachments/assets/ea551907-2d5d-4d27-8302-83291fd699b0" />
+<img width="550" height="350" alt="image" src="https://github.com/user-attachments/assets/ea551907-2d5d-4d27-8302-83291fd699b0" />
 
 - Live Previews show progress while editing.
-<img width="750" height="550" alt="image" src="https://github.com/user-attachments/assets/bb821f19-15be-4ebc-9f57-f1a21899bb3c" />
+<img width="550" height="350" alt="image" src="https://github.com/user-attachments/assets/bb821f19-15be-4ebc-9f57-f1a21899bb3c" />
 
 
 
