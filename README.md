@@ -6,7 +6,7 @@ Here is the link to the original page and formatting:
 [Download Here: (Windows 10+)](https://drive.google.com/file/d/1JFJU74b_RAGoFmr8yhBAooWwMuXCD5mS/view?usp=sharing)
 
 
-[## Download Here: (Python Script)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/JakeCResumeBuilder_GUI_v.1.0.py)
+[Download Here: (Python Script)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/JakeCResumeBuilder_GUI_v.1.0.py)
 
 
 <img width="550" height="350" alt="image" src="https://github.com/user-attachments/assets/fcabd604-c84d-4750-95e5-62d36be7a35c" />
