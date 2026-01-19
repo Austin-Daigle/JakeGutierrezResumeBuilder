@@ -4,6 +4,8 @@ Here is the link to the original page and formatting:
 [https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs)
 
 [Download Here: (Windows 10+)](https://drive.google.com/file/d/1JFJU74b_RAGoFmr8yhBAooWwMuXCD5mS/view?usp=sharing)
+
+
 [## Download Here: (Python Script)]()
 
 
