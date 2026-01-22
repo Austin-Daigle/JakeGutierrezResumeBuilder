@@ -9,7 +9,8 @@ Here is the link to the original page and formatting:
 [Download Here: (Python Script)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/JakeCResumeBuilder_GUI_v.1.0.py)
 
 
-<img width="550" height="350" alt="image" src="https://github.com/user-attachments/assets/fcabd604-c84d-4750-95e5-62d36be7a35c" />
+<img width="550" height="350" alt="image" src="https://github.com/user-attachments/assets/cfacaad1-b650-4472-ac29-fb5e4d45f5a4" />
+
 
 
 
