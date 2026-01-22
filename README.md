@@ -13,8 +13,8 @@ Here is the link to the original page and formatting:
 
 
 
-# Download Link (.exe):
-[Resume Template Maker.exe (Windows Only)](https://drive.google.com/file/d/1tvza5xIbJ_dcYEn6eF16h2ZAI7yxP-6T/view?usp=sharing)
+# Download v.1.0.1 Link (.exe):
+[Resume Template Maker.exe (Windows Only)]([https://drive.google.com/file/d/1tvza5xIbJ_dcYEn6eF16h2ZAI7yxP-6T/view?usp=sharing](https://drive.google.com/file/d/19WWx1AygSpnRHGb1C4qdsg6K0iCX3Xq6/view?usp=drive_link))
 
 # Resume Template Maker (Tkinter)
 A lightweight desktop application for building a resume from structured data (Header + Sections + Entries + Bullets), previewing it, and exporting it to multiple formats. The UI is optimized for fast editing, reordering content via drag-and-drop, and maintaining consistent formatting across entries.
