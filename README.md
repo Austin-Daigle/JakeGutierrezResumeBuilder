@@ -3,7 +3,7 @@ This is a Python script that makes building professional resumes in the Jake Gut
 Here is the link to the original page and formatting:
 [https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs)
 
-[Download v.1.0.1 Here: (Windows 10+)](https://drive.google.com/file/d/19WWx1AygSpnRHGb1C4qdsg6K0iCX3Xq6/view?usp=sharing)
+[Download v.1.0.1 Here: (Windows 10+)](https://drive.google.com/file/d/1yxyqw3Nj4__Fmb7L7qunjQqs0pOkVnTk/view?usp=sharing)
 
 
 
