@@ -3,10 +3,10 @@ This is a Python script that makes building professional resumes in the Jake Gut
 Here is the link to the original page and formatting:
 [https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs)
 
-[Download Here: (Windows 10+)](https://drive.google.com/file/d/19WWx1AygSpnRHGb1C4qdsg6K0iCX3Xq6/view?usp=sharing)
+[Download v.1.0.1 Here: (Windows 10+)](https://drive.google.com/file/d/19WWx1AygSpnRHGb1C4qdsg6K0iCX3Xq6/view?usp=sharing)
 
 
-[Download Here: (Python Script)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/JakeCResumeBuilder_GUI_v.1.0.py)
+[Download v.1.0 Here: (Python Script)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/JakeCResumeBuilder_GUI_v.1.0.py)
 
 
 <img width="550" height="350" alt="image" src="https://github.com/user-attachments/assets/cfacaad1-b650-4472-ac29-fb5e4d45f5a4" />
