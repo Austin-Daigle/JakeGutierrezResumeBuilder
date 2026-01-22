@@ -6,16 +6,10 @@ Here is the link to the original page and formatting:
 [Download v.1.0.1 Here: (Windows 10+)](https://drive.google.com/file/d/19WWx1AygSpnRHGb1C4qdsg6K0iCX3Xq6/view?usp=sharing)
 
 
-[Download v.1.0 Here: (Python Script)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/JakeCResumeBuilder_GUI_v.1.0.py)
-
 
 <img width="550" height="350" alt="image" src="https://github.com/user-attachments/assets/cfacaad1-b650-4472-ac29-fb5e4d45f5a4" />
 
 
-
-
-# Download v.1.0.1 Link (.exe):
-[Resume Template Maker.exe (Windows Only)](https://drive.google.com/file/d/19WWx1AygSpnRHGb1C4qdsg6K0iCX3Xq6/view?usp=drive_link)
 
 # Resume Template Maker (Tkinter)
 A lightweight desktop application for building a resume from structured data (Header + Sections + Entries + Bullets), previewing it, and exporting it to multiple formats. The UI is optimized for fast editing, reordering content via drag-and-drop, and maintaining consistent formatting across entries.
