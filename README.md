@@ -9,6 +9,16 @@ Original template reference:
 
 ---
 
+## Download
+
+- **Windows 10+ (recommended)**
+  - [Download v1.0.2 (.exe)](REPLACE_WITH_LINK)
+
+- **macOS**
+  - [Download v1.0.2 (.app)](REPLACE_WITH_LINK)
+
+---
+
 ## Table of Contents
 - <a href="#download">Download</a>
 - <a href="#screenshots">Screenshots</a>
@@ -31,16 +41,6 @@ Original template reference:
   - <a href="#macos-app">macOS (.app)</a>
 - <a href="#version-history">Version History</a>
 - <a href="#troubleshooting">Troubleshooting</a>
-
----
-
-## Download
-
-- **Windows 10+ (recommended)**
-  - [Download v1.0.2 (.exe)](REPLACE_WITH_LINK)
-
-- **macOS**
-  - [Download v1.0.2 (.app)](REPLACE_WITH_LINK)
 
 ---
 
