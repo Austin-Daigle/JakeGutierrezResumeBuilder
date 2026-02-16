@@ -1,4 +1,4 @@
-# JakeGutierrezResumeBuilder
+# Jake Gutierrez Resume Builder v1.0.2
 
 JakeGutierrezResumeBuilder is a lightweight desktop app for building a professional resume in the **Jake Gutierrez / Jake’s Resume** format using a fast, structured, form-driven GUI.
 
