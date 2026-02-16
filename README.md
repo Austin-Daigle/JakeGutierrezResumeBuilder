@@ -2,7 +2,7 @@
 
 JakeGutierrezResumeBuilder is a lightweight desktop app for building a professional resume in the **Jake Gutierrez / Jake’s Resume** format using a fast, structured, form-driven GUI.
 
-Instead of fighting layout in a word processor, you edit **structured resume content** (Header + Sections + Entries + Bullets), preview it instantly, and export to production-ready formats.
+Instead of fighting layout in a word processor, you edit **structured resume content** (Header + Sections + Entries + Bullets), preview it instantly, and export to production-ready formats (LaTeX Code, Microsoft Word, .Pdf, .Json).
 
 Original template reference:
 - https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
