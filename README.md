@@ -1,169 +1,134 @@
 # JakeGutierrezResumeBuilder
 
-This is a Python (Tkinter) desktop application that makes building professional resumes in the **Jake Gutierrez format** easy with a fast, structured GUI.
+JakeGutierrezResumeBuilder is a lightweight desktop app for building a professional resume in the **Jake Gutierrez / Jake’s Resume** format using a fast, structured, form-driven GUI.
+
+Instead of fighting layout in a word processor, you edit **structured resume content** (Header + Sections + Entries + Bullets), preview it instantly, and export to production-ready formats.
 
 Original template reference:
 - https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
 
 ---
 
+## Table of Contents
+- <a href="#download">Download</a>
+- <a href="#screenshots">Screenshots</a>
+- <a href="#key-features">Key Features</a>
+- <a href="#quick-start">Quick Start</a>
+- <a href="#detailed-usage-guide">Detailed Usage Guide</a>
+  - <a href="#projects-json">Projects (.json)</a>
+  - <a href="#header">Header</a>
+  - <a href="#sections">Sections</a>
+  - <a href="#entries">Entries</a>
+  - <a href="#bullets">Bullets</a>
+  - <a href="#rich-text-formatting">Rich Text Formatting</a>
+  - <a href="#spellcheck">Spellcheck</a>
+  - <a href="#undo--redo">Undo / Redo</a>
+  - <a href="#preview">Preview</a>
+  - <a href="#export">Export</a>
+- <a href="#dependencies">Dependencies</a>
+- <a href="#build-from-source">Build From Source</a>
+  - <a href="#windows-exe">Windows (.exe)</a>
+  - <a href="#macos-app">macOS (.app)</a>
+- <a href="#version-history">Version History</a>
+- <a href="#troubleshooting">Troubleshooting</a>
+
+---
+
 ## Download
 
-> TODO: Add official download links here.
+- **Windows 10+ (recommended)**
+  - [Download v1.0.2 (.exe)](REPLACE_WITH_LINK)
 
-- [Download vX.Y.Z (Windows 10+)](TODO)
-- [Download vX.Y.Z (macOS)](TODO)
+- **macOS**
+  - [Download v1.0.2 (.app)](REPLACE_WITH_LINK)
 
 ---
 
 ## Screenshots
 
-> TODO: Add images / GIFs here.
-
----
-
-## Table of Contents
-
-- [Key Features](#key-features)
-- [Quick Start (Workflow)](#quick-start-workflow)
-- [How the App Thinks (Data Model)](#how-the-app-thinks-data-model)
-- [Detailed Usage Guide](#detailed-usage-guide)
-  - [Projects (.json files)](#projects-json-files)
-  - [Header](#header)
-  - [Sections](#sections)
-  - [Entries](#entries)
-  - [Bullets](#bullets)
-  - [Rich Text Editing](#rich-text-editing)
-  - [Spellcheck](#spellcheck)
-  - [Undo / Redo](#undo--redo)
-  - [Preview](#preview)
-  - [Export](#export)
-- [Building & Packaging](#building--packaging)
-  - [Windows: Build a .exe](#windows-build-a-exe)
-  - [macOS: Build a .app](#macos-build-a-app)
-- [Dependencies](#dependencies)
-- [Troubleshooting](#troubleshooting)
-- [Version History](#version-history)
+Add screenshots / GIFs here.
 
 ---
 
 ## Key Features
 
 ### Core editing
+- **Header editor** for contact info (name, phone, email, LinkedIn/GitHub links).
+- **Sections list** with drag-and-drop reordering.
+- **Entries list** per section with drag-and-drop reordering.
+- **Entry editor dialogs** for editing structured fields.
+- **Bullets editor** with drag-and-drop ordering.
 
-- **Header editor** for contact info.
-- **Sections list** (drag-and-drop reorder).
-- **Entries list** per section (drag-and-drop reorder).
-- **Entry editor dialogs** for editing a selected entry’s fields.
-- **Bullet editor** with drag-and-drop reordering.
+### Rich text where it matters
+- Rich text editing support for bullet/body content.
+- **Section titles** support rich formatting while remaining backward-compatible with plain-text projects.
 
 ### Productivity
+- **Undo / Redo** for common edits and reorders.
+- **Save + Save As** project workflow.
+- **Preview** your resume before exporting.
+- Helpful UI tooltips across common actions.
 
-- **Undo / Redo** support for common edits and reorders.
-- **Ctrl+S Save** for projects.
-- **Tooltips** across the UI.
-- **Preview** before exporting.
+### Spellcheck (optional)
+- Red underline spellcheck for supported text inputs.
+- Right-click suggestions.
+- **Ignore All** per project.
+- **Edit Document Spellcheck Data...** to manage ignored words.
 
-### Rich text support
-
-- Rich text formatting where supported:
-  - **bold**
-  - *italic*
-  - underline
-  - strikethrough
-  - text color
-  - highlight color
-
-### Spellcheck
-
-- Optional spellcheck with:
-  - red underline on misspellings
-  - right-click suggestions
-  - per-project **Ignore All** list
-  - a manager dialog to edit ignored words
-
-### Output formats
-
-- **Export LaTeX (.tex)**
-- **Export Word (.docx)**
-- **Export PDF (.pdf)**
+### Export formats
+- **LaTeX (.tex)**
+- **Word (.docx)**
+- **PDF (.pdf)**
 
 ---
 
-## Quick Start (Workflow)
+## Quick Start
 
 1. **Create a project**
    - `File -> Save project as .json...`
+
 2. **Fill out Header**
-   - Add contact info in the Header panel.
-3. **Create sections**
+   - Enter contact details and links.
+
+3. **Add / reorder Sections**
    - Add sections (Education, Experience, Projects, Skills, etc.).
    - Drag sections to reorder.
-4. **Add entries**
+
+4. **Add / reorder Entries**
    - Select a section.
    - Add entries under it.
    - Drag entries to reorder.
+
 5. **Add bullets (Experience / Projects)**
    - Open an entry editor.
-   - Add bullets and reorder bullets by dragging.
-6. **Spellcheck (optional)**
-   - `Settings -> Enable Spellcheck`
-   - Right-click underlined words for suggestions.
-   - Use **Ignore All** for words you want to ignore in this project.
-   - Manage ignored words: `Settings -> Edit Document Spellcheck Data...`
-7. **Preview**
-   - Click `Preview` to verify ordering, spacing, and formatting.
-8. **Export**
+   - Add bullets and drag to reorder.
+
+6. **Preview**
+   - Click `Preview` to verify layout and consistency.
+
+7. **Export**
    - `File -> Export LaTeX / Word / PDF`
-
----
-
-## How the App Thinks (Data Model)
-
-The application maintains an internal in-memory state that mirrors what gets saved to disk as a JSON project file.
-
-### High-level structure
-
-- **Header**: contact fields (name, email, links, etc.)
-- **Sections**: ordered list of sections
-- Each **Section** contains:
-  - metadata (title, kind)
-  - ordered list of **Entries**
-- Each **Entry** contains:
-  - structured fields (depending on section kind)
-  - bullets/body content (depending on kind)
-
-### Why this matters
-
-- **Preview and Export do not read the UI directly**.
-- They render from the underlying structured state.
-- Saving writes this structured state to your `.json` project file.
 
 ---
 
 ## Detailed Usage Guide
 
-### Projects (.json files)
+### Projects (.json)
 
-A “project” is a JSON file containing your entire resume state.
+A project is a single `.json` file containing your entire resume state.
 
-- **Save** writes current in-memory state to disk.
-- **Load** replaces current in-memory state with the file contents.
-- The app also stores project-specific spellcheck data in the JSON.
+- **Save** writes your current in-memory state to disk.
+- **Load** replaces your current in-memory state with the selected file.
 
 Recommended workflow:
-- Create a project file first (so Ctrl+S works immediately).
-- Save frequently.
+- Create a project file first so `Ctrl+S` works immediately.
+- Save often.
 
 ---
 
 ### Header
 
-The Header area contains your contact details (name, phone, email, LinkedIn, GitHub, etc.).
-
-Behavior:
-- Header changes update the internal state.
-- Save persists them to the project JSON.
+The Header contains top-of-resume contact info (name, phone, email, and link fields). Header changes update internal state and are included in Preview/Export.
 
 ---
 
@@ -172,119 +137,103 @@ Behavior:
 A section is a top-level resume block (e.g., Education, Experience, Projects, Skills).
 
 Key behaviors:
-- The **order of sections** is the order used in Preview and Export.
-- You can **drag-and-drop** sections to reorder.
+- Section order controls output order.
+- Drag-and-drop reorders sections instantly.
 - Deleting a section removes its entries from the project.
-
-Section title editing:
-- Section titles can be edited in the UI.
-- Section titles support rich text (bold by default).
 
 ---
 
 ### Entries
 
-Entries belong to a section (e.g., one job inside Experience, one school inside Education).
+Entries belong to a section (e.g., a job within Experience, a school within Education).
 
 Key behaviors:
-- The **order of entries** controls output order.
-- Entry fields vary depending on section kind.
-- Entry editing happens in an editor dialog.
+- Entry order controls output order.
+- Fields vary by section type.
+- Editing happens in a focused editor dialog.
 
 ---
 
 ### Bullets
 
-Bullets are typically used for Experience and Projects.
+Bullets are primarily used in Experience and Projects.
 
 Key behaviors:
-- Bullets are managed as a list.
-- Bullet order matters and is reflected in Preview and Export.
-- Bullets support rich text editing where applicable.
+- Bullet order matters.
+- Drag-and-drop reordering is supported.
+- Rich text formatting is supported where applicable.
 
 ---
 
-### Rich Text Editing
+### Rich Text Formatting
 
-Some fields use a rich text editor that supports formatting.
+Rich text formatting is stored in the project file as structured segments (not as raw HTML).
 
-Supported formatting options:
-- bold / italic / underline / strikethrough
-- text color
-- highlight color
-
-Rich text is preserved across:
-- Preview
-- LaTeX export
-- Word export
-- PDF export
+Supported formatting (where available):
+- Bold
+- Italic
+- Underline
+- Strikethrough
+- Text color
+- Highlight color
 
 ---
 
 ### Spellcheck
 
-Spellcheck is designed to act like a modern editor:
+Spellcheck is designed to feel like a modern editor:
 
-- Misspelled words are underlined in red.
-- Right-click a misspelled word:
-  - choose a suggestion to replace it
-  - or choose **Ignore All** to ignore that word in this project
+- Misspelled words are underlined in bright red.
+- Right-click a misspelled word to:
+  - choose a suggestion
+  - choose **Ignore All** to ignore that word in the current project
 
-Ignore list persistence:
-- Ignored words are stored per project (inside the project JSON).
-
-Edit Document Spellcheck Data:
-- `Settings -> Edit Document Spellcheck Data...` opens a manager dialog where you can add/remove ignored words.
+Ignored words are stored per-project in the project JSON.
 
 ---
 
 ### Undo / Redo
 
-Undo/Redo exists to support rapid iteration while editing:
-
+Undo/Redo supports rapid iteration while editing:
 - `Edit -> Undo`
 - `Edit -> Redo`
-
-Some changes (like typing) may be grouped for usability.
 
 ---
 
 ### Preview
 
-Preview renders the internal data state into a display view so you can confirm:
-
-- ordering
-- spacing
-- consistency
-- formatting outcome
-
-Preview is the recommended checkpoint before export.
+Preview renders from the internal structured state (not directly from UI widgets). It’s the recommended checkpoint before export.
 
 ---
 
 ### Export
 
-The app supports multiple export formats:
+Exports are generated from the same structured state used for Preview:
 
-- **LaTeX (.tex)**: good for version control and high-quality typography.
-- **Word (.docx)**: good for recruiter workflows that prefer Word.
-- **PDF (.pdf)**: good for final submission.
-
-Exports are based on the internal structured state, not the raw UI.
+- **LaTeX (.tex)**: best for typography and version control.
+- **Word (.docx)**: useful for recruiters who prefer Word.
+- **PDF (.pdf)**: ideal for final submission.
 
 ---
 
-## Building & Packaging
+## Dependencies
 
-> This section is for developers who want to produce distributable builds.
+This app is a single-file Tkinter GUI script.
 
-### Windows: Build a .exe
+Optional feature dependencies:
+- Spellcheck: `pyspellchecker`
+- Word export: `python-docx`
+- PDF export: `reportlab`
 
-This repo includes a PyInstaller spec file:
+If an optional dependency is missing, the app shows an error dialog with the exact install command.
 
-- `ResumeTemplateMaker.spec`
+---
 
-Build command:
+## Build From Source
+
+### Windows (.exe)
+
+This repo includes a PyInstaller spec file for Windows:
 
 ```bash
 python -m PyInstaller --noconfirm --clean ResumeTemplateMaker.spec
@@ -295,15 +244,9 @@ Output:
 
 ---
 
-### macOS: Build a .app
+### macOS (.app)
 
-The macOS development folder contains the macOS-specific entry script and build helpers:
-
-- `macOSAppDev/JakeGResumeBuilder_GUI_v.1.0.2_macOS.py`
-- `macOSAppDev/ResumeTemplateMaker_macOS.spec`
-- `macOSAppDev/build_macos_app.sh`
-
-Build command on a Mac:
+The macOS-specific app script and build tooling are located in `macOSAppDev/`.
 
 ```bash
 chmod +x macOSAppDev/build_macos_app.sh
@@ -313,63 +256,40 @@ chmod +x macOSAppDev/build_macos_app.sh
 Output:
 - `macOSAppDev/dist/JakeGResumeBuilder v.1.0.2.app`
 
-Note:
-- macOS Gatekeeper may warn for unsigned apps. For wider distribution, use code signing + notarization.
+Note: macOS Gatekeeper may warn on unsigned apps. For broad distribution you typically need code signing and notarization.
 
 ---
 
-## Dependencies
+## Version History
 
-Core:
-- Python 3
-- Tkinter (ships with most Python distributions)
+### v1.0.2
+- Rich-text section title editing (with bold-by-default rendering).
+- Strikethrough support across preview and export formats.
+- Expanded tooltips across the UI for discoverability.
+- macOS-specific variant (`macOSAppDev/`) to address startup layout behavior.
 
-Optional feature dependencies (required for specific features when running from source):
+### v1.0.1
+- Stabilized Windows packaging and core editing workflow.
+- Export support for LaTeX / Word / PDF.
+- Spellcheck support (optional dependency).
 
-- Spellcheck: `pyspellchecker`
-  - Install: `pip install pyspellchecker`
-- Word export: `python-docx`
-  - Install: `pip install python-docx`
-- PDF export: `reportlab`
-  - Install: `pip install reportlab`
-
-If a dependency is missing, the app shows an error message with the exact install command.
+### v1.0.0
+- Initial public release.
+- Header / Sections / Entries / Bullets editing with preview/export workflow.
 
 ---
 
 ## Troubleshooting
 
 ### Spellcheck doesn’t work
-
-- Ensure `pyspellchecker` is installed.
+- Install `pyspellchecker`.
 - Enable it via `Settings -> Enable Spellcheck`.
 
 ### Export fails
-
 - Word export requires `python-docx`.
 - PDF export requires `reportlab`.
-- The error dialog will tell you exactly what’s missing.
+- The error dialog will tell you what’s missing.
 
-### My ignored words disappeared
-
-- Ignored words are stored in the project JSON.
-- Make sure you saved your project after editing the ignore list.
-
----
-
-## Version History
-
-> You can expand this section as releases are published.
-
-### v1.0.2
-
-- Rich section title editing (formatted titles stored and rendered in preview/exports)
-- Rich text improvements (including strikethrough support)
-- UI tooltips added across the app
-- macOS-specific variant added to address initial layout squishing
-
-### v1.0.1
-
-- TODO
-
----
+### Ignored words disappeared
+- Ignored words are stored inside the project JSON.
+- Save your project after editing spellcheck data.
