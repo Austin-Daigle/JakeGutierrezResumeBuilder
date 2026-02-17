@@ -14,7 +14,7 @@ Original template reference:
 - **Windows 10+ (recommended)**
   - [Download v1.0.2 (.exe)](https://drive.google.com/file/d/1oQDn_C-4Tl8OqMC0SB6Xrhm7xRhjj2mc/view?usp=share_link)
 - **macOS**
-  - [Download v1.0.2 (.app)](REPLACE_WITH_LINK)
+  - [Download v1.0.2 (.app)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/macOS/JakeGResumeBuilder%20v.1.0.2.app.zip)
 
 ---
 
