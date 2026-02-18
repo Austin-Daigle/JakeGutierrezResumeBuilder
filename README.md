@@ -10,19 +10,9 @@ Original template reference:
 ---
 
 ## Download
-
-**NOTE:**
-**For Windows users:** this program will alart Windows Defender as a program from an unknown developer,
-select "more info" and then "Run anyway."
-**For macOS users:** Apple GateKeeper will return a "this file is damaged error" and will recommend moving it into the
-trash, the reason for this is because Apple has as "walled garden" philosophy and requires developers to pay into and 
-undergo an audit in order to get a developer code-signing certificate in order for Apple Gatekeeper to allow the execution.
-
-**Fix for macOS:** for Mac open you command termainl (you must have admin right to do this properly) and then enter this command 
-`xattr -d com.apple.quarantine <Program path here>` and it will remove the quarentine flag from the program and allow
-execution.
-
-**For Linux:** run the program from your command line or IDE.
+Select your version and download, it is recommended to read the notes below (this is required for the macOS version).
+The source code for the Windows/Linux version and the macOS version are also available below for those who
+want to audit/reverse engineer/or build their own version of the .exe or .app.
 
 - **Windows (10+ recommended)**
   - [Download v1.0.2 (.exe)](https://drive.google.com/file/d/1oQDn_C-4Tl8OqMC0SB6Xrhm7xRhjj2mc/view?usp=share_link)
@@ -31,9 +21,27 @@ execution.
 - **Linux**
   - [Download v1.0.2 (.py)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/JakeGResumeBuilder_GUI_v.1.0.2.py)
  
+**Download Execution Help Notes:**
+
+**For Windows users:** this program will alart Windows Defender as a program from an unknown developer,
+select "more info" and then "Run anyway."
+
+
+**For macOS users:** Click on the link and select "view raw" or "Download" and then unzip the file. Apple GateKeeper will return a "this file is damaged error"
+and will recommend moving it into the trash, the reason for this is because Apple has as "walled garden" philosophy and requires 
+developers to pay into and undergo an audit in order to get a developer code-signing certificate in order for Apple Gatekeeper to allow the execution.
+
+
+**Fix for macOS:** for Mac open you command termainl (you must have admin right to do this properly) and then enter this command 
+`xattr -d com.apple.quarantine <Program directory path here>` (**Protip:** dragging the file from the folder into the terminal will automatically copy the directory path)
+and it will remove the quarentine flag from the program and allow it to run the .app executable.
+
+**For Linux:** run the program from your command line or IDE.
+
+
 Soruce code:
-[Original Python code (as seen in the Windows/Linux version)]()
-[macOS optimized Python code]()
+[Original Python code (as seen in the Windows/Linux version)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/JakeGResumeBuilder_GUI_v.1.0.2.py)
+[macOS optimized Python code](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/macOS/JakeGResumeBuilder_GUI_v.1.0.2_macOS.py)
 
 ---
 
