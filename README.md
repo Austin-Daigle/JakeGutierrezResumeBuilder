@@ -11,10 +11,29 @@ Original template reference:
 
 ## Download
 
-- **Windows 10+ (recommended)**
+**NOTE:**
+**For Windows users:** this program will alart Windows Defender as a program from an unknown developer,
+select "more info" and then "Run anyway."
+**For macOS users:** Apple GateKeeper will return a "this file is damaged error" and will recommend moving it into the
+trash, the reason for this is because Apple has as "walled garden" philosophy and requires developers to pay into and 
+undergo an audit in order to get a developer code-signing certificate in order for Apple Gatekeeper to allow the execution.
+
+**Fix for macOS:** for Mac open you command termainl (you must have admin right to do this properly) and then enter this command 
+`xattr -d com.apple.quarantine <Program path here>` and it will remove the quarentine flag from the program and allow
+execution.
+
+**For Linux:** run the program from your command line or IDE.
+
+- **Windows (10+ recommended)**
   - [Download v1.0.2 (.exe)](https://drive.google.com/file/d/1oQDn_C-4Tl8OqMC0SB6Xrhm7xRhjj2mc/view?usp=share_link)
 - **macOS**
   - [Download v1.0.2 (.app)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/macOS/JakeGResumeBuilder%20v.1.0.2.app.zip)
+- **Linux**
+  - [Download v1.0.2 (.py)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/JakeGResumeBuilder_GUI_v.1.0.2.py)
+ 
+Soruce code:
+[Original Python code (as seen in the Windows/Linux version)]()
+[macOS optimized Python code]()
 
 ---
 
