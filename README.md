@@ -20,7 +20,10 @@ want to audit/reverse engineer/or build their own version of the .exe or .app.
   - [Download v1.0.2 (.app)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/macOS/JakeGResumeBuilder%20v.1.0.2.app.zip)
 - **Linux**
   - [Download v1.0.2 (.py)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/JakeGResumeBuilder_GUI_v.1.0.2.py)
- 
+
+
+
+
 **Download Execution Help Notes:**
 
 **For Windows users:** this program will alart Windows Defender as a program from an unknown developer,
@@ -39,8 +42,10 @@ and it will remove the quarentine flag from the program and allow it to run the 
 **For Linux:** run the program from your command line or IDE.
 
 
-Soruce code:
+Source code:
+
 [Original Python code (as seen in the Windows/Linux version)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/JakeGResumeBuilder_GUI_v.1.0.2.py)
+
 [macOS optimized Python code](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/macOS/JakeGResumeBuilder_GUI_v.1.0.2_macOS.py)
 
 ---
