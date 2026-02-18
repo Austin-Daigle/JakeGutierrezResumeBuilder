@@ -10,36 +10,31 @@ Original template reference:
 ---
 
 ## Download
-Select your version and download, it is recommended to read the notes below (this is required for the macOS version).
-The source code for the Windows/Linux version and the macOS version are also available below for those who
-want to audit/reverse engineer/or build their own version of the .exe or .app.
+Select your version and download. It is recommended that you read the notes below (this is required for the macOS version).  
+The source code for the Windows/Linux version and the macOS version are also available below for those who want to audit, reverse-engineer, or build their own version of the `.exe` or `.app`.
 
-- **Windows (10+ recommended)**
+- **Windows (10+ recommended)**  
   - [Download v1.0.2 (.exe)](https://drive.google.com/file/d/1oQDn_C-4Tl8OqMC0SB6Xrhm7xRhjj2mc/view?usp=share_link)
-- **macOS**
+- **macOS**  
   - [Download v1.0.2 (.app)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/macOS/JakeGResumeBuilder%20v.1.0.2.app.zip)
-- **Linux**
+- **Linux**  
   - [Download v1.0.2 (.py)](https://github.com/Austin-Daigle/JakeGutierrezResumeBuilder/blob/main/JakeGResumeBuilder_GUI_v.1.0.2.py)
-
 
 **Download Execution Help Notes:**
 
+**For Windows users:** This program may alert Windows Defender as being from an unknown developer.  
+Select **“More info”** and then **“Run anyway.”**
 
-**For Windows users:** this program will alart Windows Defender as a program from an unknown developer,
-select "more info" and then "Run anyway."
+**For macOS users:** Click on the link and select **“View raw”** or **“Download,”** then unzip the file.  
+Apple Gatekeeper may display an error stating that “this file is damaged” and recommend moving it to the Trash.  
+This happens because Apple follows a “walled garden” philosophy and requires developers to pay for and pass an audit to obtain a code-signing certificate that allows Gatekeeper to verify the app’s legitimacy.
 
+**Fix for macOS:** Open your command terminal (you must have admin rights to perform this properly) and enter the following command:  
+`xattr -d com.apple.quarantine <Program directory path here>`  
+**Pro tip:** Dragging the file from the folder into the terminal automatically copies the directory path.  
+This will remove the quarantine flag from the program, allowing the `.app` executable to run.
 
-**For macOS users:** Click on the link and select "view raw" or "Download" and then unzip the file. Apple GateKeeper will return a "this file is damaged error"
-and will recommend moving it into the trash, the reason for this is because Apple has as "walled garden" philosophy and requires 
-developers to pay into and undergo an audit in order to get a developer code-signing certificate in order for Apple Gatekeeper to allow the execution.
-
-
-**Fix for macOS:** for Mac open you command termainl (you must have admin right to do this properly) and then enter this command 
-`xattr -d com.apple.quarantine <Program directory path here>` (**Protip:** dragging the file from the folder into the terminal will automatically copy the directory path)
-and it will remove the quarentine flag from the program and allow it to run the .app executable.
-
-**For Linux:** run the program from your command line or IDE.
-
+**For Linux:** Run the program from your command line or IDE.
 
 **Source code:**
 
